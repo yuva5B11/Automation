@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-30T11:32:20 IST" name="Suite" finished-at="2024-01-30T11:33:12 IST" duration-ms="52129">
+    <groups>
+      <group name="Master">
+        <method signature="TC_001_Login_test.test_Hrms_Login()[pri:0, instance:testCases.TC_001_Login_test@3754a4bf]" name="test_Hrms_Login" class="testCases.TC_001_Login_test"/>
+        <method signature="TC_002_CreateEMP_Test.test_CreateEmp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_CreateEMP_Test@75d4a5c2]" name="test_CreateEmp" class="testCases.TC_002_CreateEMP_Test"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC_002_CreateEMP_Test.test_CreateEmp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_CreateEMP_Test@75d4a5c2]" name="test_CreateEmp" class="testCases.TC_002_CreateEMP_Test"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC_001_Login_test.test_Hrms_Login()[pri:0, instance:testCases.TC_001_Login_test@3754a4bf]" name="test_Hrms_Login" class="testCases.TC_001_Login_test"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2024-01-30T11:32:20 IST" name="Test" finished-at="2024-01-30T11:33:12 IST" duration-ms="52129">
+      <class name="testCases.TC_001_Login_test">
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_Login_test@3754a4bf]" started-at="2024-01-30T11:32:20 IST" name="LaunchApplication" finished-at="2024-01-30T11:32:30 IST" duration-ms="9888" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="test_Hrms_Login()[pri:0, instance:testCases.TC_001_Login_test@3754a4bf]" started-at="2024-01-30T11:32:30 IST" name="test_Hrms_Login" finished-at="2024-01-30T11:32:33 IST" duration-ms="3369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Hrms_Login -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC_001_Login_test@3754a4bf]" started-at="2024-01-30T11:32:34 IST" name="closeBrowser" finished-at="2024-01-30T11:32:34 IST" duration-ms="461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.TC_001_Login_test -->
+      <class name="testCases.TC_002_CreateEMP_Test">
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_CreateEMP_Test@75d4a5c2]" started-at="2024-01-30T11:32:34 IST" name="LaunchApplication" finished-at="2024-01-30T11:32:39 IST" duration-ms="4809" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="test_CreateEmp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_CreateEMP_Test@75d4a5c2]" started-at="2024-01-30T11:32:39 IST" name="test_CreateEmp" finished-at="2024-01-30T11:33:11 IST" duration-ms="32283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sampleTest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[saTest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_CreateEmp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC_002_CreateEMP_Test@75d4a5c2]" started-at="2024-01-30T11:33:11 IST" name="closeBrowser" finished-at="2024-01-30T11:33:12 IST" duration-ms="508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.TC_002_CreateEMP_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
